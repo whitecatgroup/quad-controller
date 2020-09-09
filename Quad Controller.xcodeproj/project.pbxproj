@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		586DDDD71C45F9A3001729AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586DDDD61C45F9A3001729AC /* AppDelegate.swift */; };
+		586DDDD91C45F9A3001729AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586DDDD81C45F9A3001729AC /* ViewController.swift */; };
+		586DDDDC1C45F9A3001729AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586DDDDA1C45F9A3001729AC /* Main.storyboard */; };
+		586DDDDE1C45F9A3001729AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586DDDDD1C45F9A3001729AC /* Assets.xcassets */; };
+		586DDDE11C45F9A3001729AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586DDDDF1C45F9A3001729AC /* LaunchScreen.storyboard */; };
+		586DDDEA1C45FDEA001729AC /* SRWebClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586DDDE91C45FDEA001729AC /* SRWebClient.swift */; };
+		586DDDF71C45FE15001729AC /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586DDDEC1C45FE15001729AC /* Error.swift */; };
+		586DDDF81C45FE15001729AC /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586DDDED1C45FE15001729AC /* Functional.swift */; };
+		586DDDF91C45FE15001729AC /* JSValue.Accessors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586DDDEF1C45FE15001729AC /* JSValue.Accessors.swift */; };
+		586DDDFA1C45FE15001729AC /* JSValue.Encodings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586DDDF01C45FE15001729AC /* JSValue.Encodings.swift */; };
+		586DDDFB1C45FE15001729AC /* JSValue.ErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586DDDF11C45FE15001729AC /* JSValue.ErrorHandling.swift */; };
+		586DDDFC1C45FE15001729AC /* JSValue.Indexers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586DDDF21C45FE15001729AC /* JSValue.Indexers.swift */; };
+		586DDDFD1C45FE15001729AC /* JSValue.Literals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586DDDF31C45FE15001729AC /* JSValue.Literals.swift */; };
+		586DDDFE1C45FE15001729AC /* JSValue.Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586DDDF41C45FE15001729AC /* JSValue.Parsing.swift */; };
+		586DDDFF1C45FE15001729AC /* JSValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586DDDF51C45FE15001729AC /* JSValue.swift */; };
+		586DDE001C45FE15001729AC /* ReplayableGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586DDDF61C45FE15001729AC /* ReplayableGenerator.swift */; };
+		586DDE021C4605E1001729AC /* kUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586DDE011C4605E1001729AC /* kUtils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		586DDDD31C45F9A3001729AC /* Quad Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quad Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		586DDDD61C45F9A3001729AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		586DDDD81C45F9A3001729AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		586DDDDB1C45F9A3001729AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		586DDDDD1C45F9A3001729AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		586DDDE01C45F9A3001729AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		586DDDE21C45F9A3001729AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		586DDDE81C45FDEA001729AC /* SRWebClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebClient.h; sourceTree = "<group>"; };
+		586DDDE91C45FDEA001729AC /* SRWebClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRWebClient.swift; sourceTree = "<group>"; };
+		586DDDEC1C45FE15001729AC /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		586DDDED1C45FE15001729AC /* Functional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functional.swift; sourceTree = "<group>"; };
+		586DDDEE1C45FE15001729AC /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		586DDDEF1C45FE15001729AC /* JSValue.Accessors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSValue.Accessors.swift; sourceTree = "<group>"; };
+		586DDDF01C45FE15001729AC /* JSValue.Encodings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSValue.Encodings.swift; sourceTree = "<group>"; };
+		586DDDF11C45FE15001729AC /* JSValue.ErrorHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSValue.ErrorHandling.swift; sourceTree = "<group>"; };
+		586DDDF21C45FE15001729AC /* JSValue.Indexers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSValue.Indexers.swift; sourceTree = "<group>"; };
+		586DDDF31C45FE15001729AC /* JSValue.Literals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSValue.Literals.swift; sourceTree = "<group>"; };
+		586DDDF41C45FE15001729AC /* JSValue.Parsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSValue.Parsing.swift; sourceTree = "<group>"; };
+		586DDDF51C45FE15001729AC /* JSValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSValue.swift; sourceTree = "<group>"; };
+		586DDDF61C45FE15001729AC /* ReplayableGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplayableGenerator.swift; sourceTree = "<group>"; };
+		586DDE011C4605E1001729AC /* kUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kUtils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		586DDDD01C45F9A3001729AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		586DDDCA1C45F9A3001729AC = {
+			isa = PBXGroup;
+			children = (
+				586DDDD51C45F9A3001729AC /* Quad Controller */,
+				586DDDD41C45F9A3001729AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		586DDDD41C45F9A3001729AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				586DDDD31C45F9A3001729AC /* Quad Controller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		586DDDD51C45F9A3001729AC /* Quad Controller */ = {
+			isa = PBXGroup;
+			children = (
+				586DDE011C4605E1001729AC /* kUtils.swift */,
+				586DDDEB1C45FE15001729AC /* Json */,
+				586DDDE81C45FDEA001729AC /* SRWebClient.h */,
+				586DDDE91C45FDEA001729AC /* SRWebClient.swift */,
+				586DDDD61C45F9A3001729AC /* AppDelegate.swift */,
+				586DDDD81C45F9A3001729AC /* ViewController.swift */,
+				586DDDDA1C45F9A3001729AC /* Main.storyboard */,
+				586DDDDD1C45F9A3001729AC /* Assets.xcassets */,
+				586DDDDF1C45F9A3001729AC /* LaunchScreen.storyboard */,
+				586DDDE21C45F9A3001729AC /* Info.plist */,
+			);
+			path = "Quad Controller";
+			sourceTree = "<group>";
+		};
+		586DDDEB1C45FE15001729AC /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				586DDDEC1C45FE15001729AC /* Error.swift */,
+				586DDDED1C45FE15001729AC /* Functional.swift */,
+				586DDDEE1C45FE15001729AC /* JSON.h */,
+				586DDDEF1C45FE15001729AC /* JSValue.Accessors.swift */,
+				586DDDF01C45FE15001729AC /* JSValue.Encodings.swift */,
+				586DDDF11C45FE15001729AC /* JSValue.ErrorHandling.swift */,
+				586DDDF21C45FE15001729AC /* JSValue.Indexers.swift */,
+				586DDDF31C45FE15001729AC /* JSValue.Literals.swift */,
+				586DDDF41C45FE15001729AC /* JSValue.Parsing.swift */,
+				586DDDF51C45FE15001729AC /* JSValue.swift */,
+				586DDDF61C45FE15001729AC /* ReplayableGenerator.swift */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		586DDDD21C45F9A3001729AC /* Quad Controller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 586DDDE51C45F9A3001729AC /* Build configuration list for PBXNativeTarget "Quad Controller" */;
+			buildPhases = (
+				586DDDCF1C45F9A3001729AC /* Sources */,
+				586DDDD01C45F9A3001729AC /* Frameworks */,
+				586DDDD11C45F9A3001729AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quad Controller";
+			productName = "Quad Controller";
+			productReference = 586DDDD31C45F9A3001729AC /* Quad Controller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		586DDDCB1C45F9A3001729AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "WhiteCatGroup";
+				TargetAttributes = {
+					586DDDD21C45F9A3001729AC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 586DDDCE1C45F9A3001729AC /* Build configuration list for PBXProject "Quad Controller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 586DDDCA1C45F9A3001729AC;
+			productRefGroup = 586DDDD41C45F9A3001729AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				586DDDD21C45F9A3001729AC /* Quad Controller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		586DDDD11C45F9A3001729AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586DDDE11C45F9A3001729AC /* LaunchScreen.storyboard in Resources */,
+				586DDDDE1C45F9A3001729AC /* Assets.xcassets in Resources */,
+				586DDDDC1C45F9A3001729AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		586DDDCF1C45F9A3001729AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586DDDF71C45FE15001729AC /* Error.swift in Sources */,
+				586DDDFA1C45FE15001729AC /* JSValue.Encodings.swift in Sources */,
+				586DDDD91C45F9A3001729AC /* ViewController.swift in Sources */,
+				586DDE021C4605E1001729AC /* kUtils.swift in Sources */,
+				586DDDF81C45FE15001729AC /* Functional.swift in Sources */,
+				586DDDD71C45F9A3001729AC /* AppDelegate.swift in Sources */,
+				586DDE001C45FE15001729AC /* ReplayableGenerator.swift in Sources */,
+				586DDDFD1C45FE15001729AC /* JSValue.Literals.swift in Sources */,
+				586DDDFB1C45FE15001729AC /* JSValue.ErrorHandling.swift in Sources */,
+				586DDDF91C45FE15001729AC /* JSValue.Accessors.swift in Sources */,
+				586DDDEA1C45FDEA001729AC /* SRWebClient.swift in Sources */,
+				586DDDFC1C45FE15001729AC /* JSValue.Indexers.swift in Sources */,
+				586DDDFF1C45FE15001729AC /* JSValue.swift in Sources */,
+				586DDDFE1C45FE15001729AC /* JSValue.Parsing.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		586DDDDA1C45F9A3001729AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				586DDDDB1C45F9A3001729AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		586DDDDF1C45F9A3001729AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				586DDDE01C45F9A3001729AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		586DDDE31C45F9A3001729AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		586DDDE41C45F9A3001729AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		586DDDE61C45F9A3001729AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Quad Controller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whitecatgroup.Quad-Controller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		586DDDE71C45F9A3001729AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Quad Controller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whitecatgroup.Quad-Controller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		586DDDCE1C45F9A3001729AC /* Build configuration list for PBXProject "Quad Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				586DDDE31C45F9A3001729AC /* Debug */,
+				586DDDE41C45F9A3001729AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		586DDDE51C45F9A3001729AC /* Build configuration list for PBXNativeTarget "Quad Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				586DDDE61C45F9A3001729AC /* Debug */,
+				586DDDE71C45F9A3001729AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 586DDDCB1C45F9A3001729AC /* Project object */;
+}
